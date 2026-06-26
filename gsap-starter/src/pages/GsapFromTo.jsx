@@ -8,12 +8,8 @@ const GsapFromTo = () => {
     gsap.fromTo('#red-box',{
       // first curly braces responsible for "from"
       x: 0,
-      rotateZ: 180,
-      rotateX: 360,
-      repeat: -1,
-      yoyo: true,
-      duration: 1,
-      ease: "bounce.out"
+      rotation: 0,
+      borderRadius: '0%'
     },{
       // first curly braces responsible for "To"
       x: 250,
