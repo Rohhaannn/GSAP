@@ -83,9 +83,7 @@ const Menu = () => {
           return (
             <button
               key={cocktail.id}
-              className={`
-				${isActive ? "text-white border-white" : "text-white/50 border-white/50"}
-			 `}
+              className={`${isActive ? "text-white border-white" : "text-white/50 border-white/50"}`}
               onClick={() => goToSlide(index)}
             >
               {cocktail.name}
